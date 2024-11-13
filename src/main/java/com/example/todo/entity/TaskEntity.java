@@ -22,8 +22,8 @@ public class TaskEntity {
     private String description;
 
     @Enumerated(EnumType.STRING)
-    private Status status;
+    private Priority priority;
 
     @Enumerated(EnumType.STRING)
-    private Priority priority;
+    private Status status;
 }
